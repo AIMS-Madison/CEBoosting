@@ -3,7 +3,10 @@
 This repository contains the code for the paper:
 - [CEBoosting: Online Sparse Identification of Dynamical Systems with Regime Switching by Causation Entropy Boosting](https://arxiv.org/abs/2304.07863)
 
-In this work, we formulate a new neural operator by parameterizing the integral kernel directly in Fourier space, allowing for an expressive and efficient architecture. 
-We perform experiments on Burgers' equation, Darcy flow, and the Navier-Stokes equation (including the turbulent regime). 
-Our Fourier neural operator shows state-of-the-art performance compared to existing neural network methodologies and it is up to three orders of magnitude faster compared to traditional PDE solvers.
+In this work, we developed a causation entropy boosting (CEBoosting) framework for online system identification with regime switching. With sequential data from dynamical systems with regime switching, CEBoosting aims to online (i) identify the regime switching and (ii) learn a model for the new regime .
 
+
+For each sequential data batch, this framework calculates the causation entropy that evaluates the contribution of each function in a large set of candidate functions to the system dynamics. The causation entropies based on multiple data batches are then aggregated to identify a few candidate functions that have significant impacts on the system dynamics. With the identified sparse set of candidate functions, the framework further fits a model of the system dynamics based on the data batches. 
+
+
+We tested the proposed framework for complex systems with features including chaotic behavior, high dimensionality, intermittency and extreme events, and partial observations. The results show that the CEBoosting method can capture the regime switching and then fit models of system dynamics for various types of complex dynamical based on a limited amount of sequential data.
