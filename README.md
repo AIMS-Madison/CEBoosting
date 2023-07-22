@@ -13,3 +13,26 @@ We tested the proposed framework for complex systems with features including cha
 
 Relevant works:
 - [A causality-based learning approach for discovering the underlying dynamics of complex systems from partial observations with stochastic parameterization](https://www.sciencedirect.com/science/article/pii/S0167278923000970)
+
+
+## Citations
+
+```
+@article{chen2023ceboosting,
+  title={CEBoosting: Online Sparse Identification of Dynamical Systems with Regime Switching by Causation Entropy Boosting},
+  author={Chen, Chuanqi and Chen, Nan and Wu, Jin-Long},
+  journal={arXiv preprint arXiv:2304.07863},
+  year={2023}
+}
+
+
+@article{chen2023causality,
+  title={A causality-based learning approach for discovering the underlying dynamics of complex systems from partial observations with stochastic parameterization},
+  author={Chen, Nan and Zhang, Yinling},
+  journal={Physica D: Nonlinear Phenomena},
+  volume={449},
+  pages={133743},
+  year={2023},
+  publisher={Elsevier}
+}
+```
