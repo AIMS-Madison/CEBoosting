@@ -15,7 +15,7 @@ Relevant works:
 - [A causality-based learning approach for discovering the underlying dynamics of complex systems from partial observations with stochastic parameterization](https://www.sciencedirect.com/science/article/pii/S0167278923000970)
 
 <p align="center">
-<img align="middle" src="./assets/SchematicDiagram.png" alt="SchematicDiagram" width="500" height="250" />
+<img align="middle" src="./assets/SchematicDiagram.png" alt="SchematicDiagram" width="2000" height="1500" />
 </p>
 
 
