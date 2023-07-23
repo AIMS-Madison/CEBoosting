@@ -11,12 +11,14 @@ For each sequential data batch, this framework calculates the causation entropy 
 
 We tested the proposed framework for complex systems with features including chaotic behavior, high dimensionality, intermittency and extreme events, and partial observations. The results show that the CEBoosting method can capture the regime switching and then fit models of system dynamics for various types of complex dynamical based on a limited amount of sequential data.
 
-Relevant works:
-- [A causality-based learning approach for discovering the underlying dynamics of complex systems from partial observations with stochastic parameterization](https://www.sciencedirect.com/science/article/pii/S0167278923000970)
-
 <p align="center">
 <img align="middle" src="./assets/SchematicDiagram.png" alt="SchematicDiagram" width="1200"  />
 </p>
+
+Relevant works:
+- [A causality-based learning approach for discovering the underlying dynamics of complex systems from partial observations with stochastic parameterization](https://www.sciencedirect.com/science/article/pii/S0167278923000970)
+
+
 
 
 ## Citations
