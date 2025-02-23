@@ -25,10 +25,13 @@ Relevant works:
 
 ```
 @article{chen2023ceboosting,
-  title={CEBoosting: Online Sparse Identification of Dynamical Systems with Regime Switching by Causation Entropy Boosting},
+  title={{CEBoosting}: Online sparse identification of dynamical systems with regime switching by causation entropy boosting},
   author={Chen, Chuanqi and Chen, Nan and Wu, Jin-Long},
-  journal={arXiv preprint arXiv:2304.07863},
-  year={2023}
+  journal={Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  volume={33},
+  number={8},
+  year={2023},
+  publisher={AIP Publishing}
 }
 
 
